@@ -5,7 +5,7 @@ def create
 end
 
 def destroy
-
+session.delete :name
 end
 
 private
