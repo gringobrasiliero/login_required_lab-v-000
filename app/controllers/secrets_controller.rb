@@ -8,7 +8,7 @@ end
 private
 
 def require_login
-  redirect_to login_path unless session.include? :user_id
+  redirect_to login_path unless session.include? :name
 end
 
 end
